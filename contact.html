@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/contact.css">
+
+    <style>
+        body {
+            background-color: #e1e5e7;
+        }
+
+
+
+        .navbar-brand {
+            font-weight: bold;
+            font-style: italic;
+            color: #2874f0 !important;
+        }
+
+        .navbar-brand small {
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            color: #f0ad4e;
+            margin-top: -8px;
+        }
+
+        .search-box {
+            background-color: #f1f3f6;
+            border-radius: 5px;
+            width: 40%;
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+        }
+
+        .nav-link {
+            color: black !important;
+        }
+
+        .nav-item i {
+            margin-right: 5px;
+        }
+
+
+        .image span img {
+            height: 4rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .allimage span img {
+            height: 10rem;
+        }
+
+
+        .leftscroll {
+            overflow-y: scroll;
+        }
+
+        .leftscroll p button {
+            height: 50px;
+            width: 100%;
+            border: 0;
+            text-align: left;
+            background-color: white;
+        }
+
+        .leftscroll p button:hover {
+            color: blue;
+            background-color: rgba(0, 213, 255, 0.049);
+
+        }
+
+        .orangebutton span p button {
+            background-color: #fb641b;
+            color: white;
+            border: 0;
+            width: 9rem;
+            height: 2rem;
+            margin-left: 26vw;
+            border-radius: 2%;
+        }
+
+        .dropdowns button {
+            background-color:white;
+            width: 100%;
+            height: 60px;
+            border: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+
+        /* footer start */
+        a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-section {
+            padding: 40px 20px;
+            background-color: black;
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid gray;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        .icon-text {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        /* footer end */
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- nav bar start -->
+        <div class="row">
+            <div class="col-sm-12" ...>
+                <nav class="navbar navbar-expand-lg bg-primary shadow-sm px-5">
+                    <a class="navbar-brand" href="#">
+                      
+                        <img src="img/flipkart-plus_8d85f4.png" alt="" height="40">
+                    </a>
+
+
+                    <form class="d-flex ms-3 search-box w-50" style="border-radius: 25%;">
+                        <input class="form-control border-0" type="search"
+                            placeholder="Search for Products, Brands and More" aria-label="Search"
+                            style="background-color: #f0f5ff; height: 2.5rem ">
+                    </form>
+
+                    <div class="ms-auto d-flex align-items-center">
+                        <div class="nav-item mx-3">
+                            <div class="dropdown">
+
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Login
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li style="width: 15rem;"> 
+                                        <a href="login.html" style="color: black;" class="ms-3"><strong> New Costumer?</strong></a> <a href="login.html" style="color: blue;" class="ms-3"><strong>Sign Up</strong></a> 
+
+                                    </li>
+                                    <hr>
+                                    <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Flipkart Plus Zone</a></li>
+                                    <li><a class="dropdown-item" href="#">Orders</a></li>
+                                    <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                    <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                    <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="nav-item mx-3">
+                            <a class="nav-link" href="#"><i class="bi bi-cart3"></i>Cart</a>
+                        </div>
+                        <div class="nav-item mx-3">
+                            <a class="nav-link" href="#"><i class="bi bi-shop"></i>Become a Seller</a>
+                        </div>
+                        <div class="nav-item mx-3">
+                            <a class="nav-link" href="#"><i class="bi bi-three-dots-vertical"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- nav bar end -->
+
+        <!-- 2 nav bar start -->
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div
+                        class="col-sm-10 mx-auto  d-flex justify-content-between align-items-center justify-content-center">
+                        <!-- electronics start -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Electronics
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li style="width: 15rem;"> <strong> New Costumer? </strong> &nbsp;&nbsp;<a
+                                        href=""><strong>Sign
+                                            Up</strong></a></li>
+                                <hr>
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Flipkart Plus Zone</a></li>
+                                <li><a class="dropdown-item" href="#">Orders</a></li>
+                                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                        <!-- electronics end -->
+
+                        <!-- TVs & Application start -->
+
+
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                TVs & Application
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li style="width: 15rem;"> <strong> New Costumer? </strong> &nbsp;&nbsp;<a
+                                        href=""><strong>Sign
+                                            Up</strong></a></li>
+                                <hr>
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Flipkart Plus Zone</a></li>
+                                <li><a class="dropdown-item" href="#">Orders</a></li>
+                                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                        <!-- TVs & Application end -->
+                        <!-- men start -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Men
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li style="width: 15rem;"> <strong> New Costumer? </strong> &nbsp;&nbsp;<a
+                                        href=""><strong>Sign
+                                            Up</strong></a></li>
+                                <hr>
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Flipkart Plus Zone</a></li>
+                                <li><a class="dropdown-item" href="#">Orders</a></li>
+                                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                        <!-- men end -->
+                        <!-- women start -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Women
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li style="width: 15rem;"> <strong> New Costumer? </strong> &nbsp;&nbsp;<a
+                                        href=""><strong>Sign
+                                            Up</strong></a></li>
+                                <hr>
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Flipkart Plus Zone</a></li>
+                                <li><a class="dropdown-item" href="#">Orders</a></li>
+                                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                        <!-- women end -->
+
+                        <!-- baby & kids start -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Baby & Kids
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li style="width: 15rem;"> <strong> New Costumer? </strong> &nbsp;&nbsp;<a
+                                        href=""><strong>Sign
+                                            Up</strong></a></li>
+                                <hr>
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Flipkart Plus Zone</a></li>
+                                <li><a class="dropdown-item" href="#">Orders</a></li>
+                                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                        <!--baby & kids end  -->
+                        <!-- home and furniture start -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Home & Furniture
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li style="width: 15rem;"> <strong> New Costumer? </strong> &nbsp;&nbsp;<a
+                                        href=""><strong>Sign
+                                            Up</strong></a></li>
+                                <hr>
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Flipkart Plus Zone</a></li>
+                                <li><a class="dropdown-item" href="#">Orders</a></li>
+                                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                        <!-- home & furniture end -->
+                        <!-- sports book start -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Sports,Books & More
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li style="width: 15rem;"> <strong> New Costumer? </strong> &nbsp;&nbsp;<a
+                                        href=""><strong>Sign
+                                            Up</strong></a></li>
+                                <hr>
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Flipkart Plus Zone</a></li>
+                                <li><a class="dropdown-item" href="#">Orders</a></li>
+                                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                        <!--sports book end  -->
+                        <!-- flights start -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                flights
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li style="width: 15rem;"> <strong> New Costumer? </strong> &nbsp;&nbsp;<a
+                                        href=""><strong>Sign
+                                            Up</strong></a></li>
+                                <hr>
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Flipkart Plus Zone</a></li>
+                                <li><a class="dropdown-item" href="#">Orders</a></li>
+                                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                            </ul>
+                        </div>
+                        <!-- flights end -->
+                        <!-- Offer zone start -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Offer Zone
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li style="width: 15rem;"> <strong> New Costumer? </strong> &nbsp;&nbsp;<a
+                                        href=""><strong>Sign
+                                            Up</strong></a></li>
+                                <hr>
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Flipkart Plus Zone</a></li>
+                                <li><a class="dropdown-item" href="#">Orders</a></li>
+                                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                                <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- offer zone end -->
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <!--2 nav bar end -->
+
+
+        <!-- flipkart help center start -->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-11 mx-auto">
+                            <h5>Flipkart Help Center | 24x7 Customer Care Support</h2>
+
+                                <p style="font-size: 12px; color: gray;">
+                                    The Flipkart Help Centre page lists out various types of issues that you may have
+                                    encountered so that there can be quick resolution and you can go back to shopping
+                                    online. For example, you can get more information regarding order tracking, delivery
+                                    <br>
+                                    date changes, help with returns (and refunds), and much more. The Flipkart Help
+                                    Centre also lists out more information that you may need regarding Flipkart Plus,
+                                    payment, shopping, and more. The page has various filters listed out on the
+                                    left-hand
+                                    <br>
+                                    side so that you can get your queries solved quickly, efficiently, and without a
+                                    hassle. You can get the Flipkart Help Centre number or even access Flipkart Help
+                                    Centre support if you need professional help regarding various topics. The support
+                                    <br>
+                                    executive will ensure speedy assistance so that your shopping experience is positive
+                                    and enjoyable. You can even inform your loved ones of the support page so that they
+                                    can properly get their grievances addressed as well. Once you have all your
+                                    <br>
+                                    queries addressed, you can pull out your shopping list and shop for all your
+                                    essentials in one place. You can shop during festive sales to get your hands on some
+                                    unbelievable deals online. This information is updated on 15-Apr-25
+                                </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- flipkart help center end -->
+
+        <!-- partition start -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-11 mx-auto">
+                            <div class="row d-flex justify-content-between">
+                                <div class="bg-light leftscroll" style="height: 38rem; width: 20rem;">
+                                    <p style="line-height: 50px;">
+                                        <strong>TYPE OF ISSUE</strong><br>
+                                        <button>Help with your issues</button><br>
+                                        <button>Help with your order</button><br>
+                                        <button>Help with other issues</button><br>
+                                        <strong>Help Topics</strong><br>
+                                        <button>Delivery related</button><br>
+                                        <button>Login and my account</button><br>
+                                        <button>Refunds related</button><br>
+                                        <button>Flipkart EMI</button><br>
+                                        <button>Payment</button><br>
+                                        <button>Returns & Pickup related</button><br>
+                                        <button>Cancellation related</button><br>
+                                        <button>Grocery</button><br>
+                                        <button>SuperCoins</button><br>
+                                        <button>Flipkart Plus</button><br>
+                                        <button>Flipkart Travel</button><br>
+                                        <button>2 Wheelers</button><br>
+                                        <button>Others</button><br>
+                                        <button>Personal Loan</button><br>
+                                        <button>Recharges</button><br>
+                                        <button>2 Wheeler Insurance</button><br>
+                                        <button>Flipkart UPI</button><br>
+                                        <button>Fees</button><br>
+                                        <button>VIP</button><br>
+                                        <button>Minutes</button><br>
+                                        <button>DOR TV</button><br>
+                                    </p>
+                                </div>
+                                <div class="bg-light orangebutton" style="height: 28rem; width: 63.5rem;">
+                                    <span><img src="img/login.png" alt="" class="h-50"
+                                            style="margin-left: 23vw; margin-top: 18vh;">
+                                        <p style="margin-left: 18vw;">Login to get help with your recent orders and
+                                            issues</p>
+
+                                        <p><button><a href="login.html">Log in</a></button></p>
+                                    </span>
+                                </div>
+                                <br>
+                                <div class="bg-light dropdowns"
+                                    style="height: 22rem; width: 63.5rem; margin-left: 21.1rem; margin-top: -9.4rem;">
+                                    <h5 class="mt-2">What issue are you Facing?</h5>
+                                    <div class="dropdown">
+                                        <button class="woman btn-secondary dropdown-toggle " type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <span class="mt-3">
+                                                <strong>I want to manage my
+                                                    order</strong>
+                                                
+                                                <p style="font-size: 15px; color: gray;">View,cancel or return an order
+                                                </p>
+                                            </span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Man</a></li>
+                                            <li><a class="dropdown-item" href="#">Woman</a></li>
+                                        </ul>
+                                    </div>
+
+
+                                    <div class="dropdown mt-3">
+                                        <button class="woman btn-secondary dropdown-toggle " type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <span class="mt-3">
+                                            <strong>I want help with
+                                                    returns & refunds</strong>
+                                                
+                                                <p style="font-size: 15px; color: gray; margin-left: -90px;">
+                                                    Manage and track returns
+                                                </p>
+                                            </span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Man</a></li>
+                                            <li><a class="dropdown-item" href="#">Woman</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="dropdown mt-3">
+                                        <button class="woman btn-secondary dropdown-toggle " type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <span class="mt-3">
+                                                <strong style="margin-left: -80px;">I want help with other issues
+                                                    </strong>
+                                                
+                                                <p style="font-size: 15px; color: gray;">Offers,payment,Flipkart Plus & all other issue
+                                                </p>
+                                            </span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Man</a></li>
+                                            <li><a class="dropdown-item" href="#">Woman</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown mt-3">
+                                        <button class="woman btn-secondary dropdown-toggle " type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <span class="mt-3">
+                                                <strong>I want to contact the seller
+                                                    </strong>
+                                                
+                                                <p style="font-size: 15px; color: gray;">View,cancel or return an order
+                                                </p>
+                                            </span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Man</a></li>
+                                            <li><a class="dropdown-item" href="#">Woman</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- partition end -->
+
+<!-- texts start -->
+<hr>
+<div class="row bg-light">
+    <p style="color: gray; font-size: 11px;">
+        <strong>Flipkart Help Centre: Get All Shopping Solutions Here </strong><br>
+
+        Once you place your order on any online shopping store, the next obvious thing to do is wait for your product to arrive. This wait can be quite anxiety-ridden if you do not get updates about your order or do not receive support post-delivery of your order. However, with the Flipkart Help Centre,
+        <br>
+         your wait becomes exciting, and your shopping experience becomes joyful, thanks to all the support it provides related to your order. With websites, like Flipkart, the entire shopping experience has gone through a major change. Now, you can conveniently shop any time, from anywhere, and
+         <br>
+          anything that you want. These websites are one-stop destinations for all your needs and requirements. From skincare products to home appliances and groceries to baby care essentials, everything is just a few clicks away. These websites provide you convenience, at the same time, a bitter 
+          <br>
+          experience can make online shopping a nightmare for many. To ensure that your shopping experience is delightful, the Flipkart Help centre support offers every assistance that you need. From reporting specific delivered product-related issues to letting you manage your orders, the Flipkart
+          <br>
+           Helpcentre has solutions to all your worries related orders. Furthermore, if you do not find a solution to your queries here, then you can use the Flipkart Help Centre number to get your issues solved. Keep reading to know more about Flipkart Help Centre and what all assistance you get
+           <br>
+            
+        
+<strong>24x7 Customer Care Support</strong>  
+<br>      
+        You can 24x7 Customer Care Support on the Flipkart Help Centre. Any query or issue that you may possibly have while shopping on Flipkart is taken care here. This page is easy to navigate, and you can get support almost immediately. Once you log onto your Flipkart account, this page shows you 
+        <br>
+        your recent orders and let you report any issue. By clicking on the specific order, you can raise your query. It also has a chat option to ensure that your queries and issues are taken care of. Similarly, there are other options on this page that are created to assist you and to make your shopping 
+        <br>
+        experience hassle-free. You can get support any time and get a satisfactory solution to your queries and issues within minutes.
+        <br>
+
+        
+        <strong>Types and Topics of Support in Flipkart Help Centre</strong>
+        <br>
+        
+        Apart from helping you with your orders and/or your delivered product-related issues, you can find various other support at Flipkart Help Centre. You can select from three types of issues here - help with your issues, help with your order, and help with other issues. You can track your orders here,
+        <br>
+         manage your orders, get help with your returns and refunds issues, and even get help related to various other issues, such as offers, payment, Flipkart Plus, etc. There are also details about specific help topics, such as cancellations and returns, wallet, insurance, Flipkart Quick, SuperCoins, Gift
+         <br>
+          Card, etc. available here. So, log on to your Flipkart account and shop without hassles and with complete help and support.
+          <br><br> 
+        
+        The Flipkart Help Centre is available on the Flipkart site to help every Flipkart customer with any grievance that they may have. You can find solutions regarding the tracking of your order. It will also help edit your delivery date or address and more. All your issues will be addressed at any time of the <br>
+         day or night (24/7 service). This way, you can immediately get your grievances addressed. You can also get help regarding returns and refunds and many other issues through the Flipkart Help Centre. In case you're not satisfied with the solution given, you can seek further assistance. You can get
+         <br>
+          in touch with a support assistant via the Flipkart Help Centre number. The next time you have any issue with your order or if you want more clarity regarding payment options, Flipkart Plus, account-related queries, and more, you can access Flipkart Help Centre support for further information. This 
+          <br>
+          way, you can shop without worry and have a satisfying shopping experience. The support centre will do all that it can to address your grievance until you’re completely satisfied. So, no matter the nature of your grievance, you must get in touch with the support forum. This way, you won’t have to
+          <br>
+           compromise in any way.
+        
+        Related Pages: <a href=""> Flipkart Track Orders | Flipkart Manage Orders | Flipkart Return Orders </a>
+    </p> 
+</div>
+
+
+<hr>
+<!-- texts end -->
+        <!-- footer start -->
+
+        <footer class="footer-section">
+            <div class="container-fluid">
+                <div class="row text-start">
+                    <div class="col-md-2">
+                        <h6>ABOUT</h6>
+                        <div style="font-size: 15px;">
+                            <p><a href="contact.html">Contact Us</a></p>
+                            <p><a href="about.html">About Us</a></p>
+                            <p><a href="#">Careers</a></p>
+                            <p><a href="#">Flipkart Stories</a></p>
+                            <p><a href="#">Press</a></p>
+                            <p><a href="#">Corporate Information</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6>GROUP COMPANIES</h6>
+                        <div style="font-size: 15px;">
+
+                            <p><a href="#">Myntra</a></p>
+                            <p><a href="#">Cleartrip</a></p>
+                            <p><a href="#">Shopsy</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6>HELP</h6>
+                        <div style="font-size: 15px;">
+
+                            <p><a href="#">Payments</a></p>
+                            <p><a href="#">Shipping</a></p>
+                            <p><a href="#">Cancellation & Returns</a></p>
+                            <p><a href="#">FAQ</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6>CONSUMER POLICY</h6>
+                        <div style="font-size: 15px;">
+
+                            <p><a href="#">Cancellation & Returns</a></p>
+                            <p><a href="#">Terms Of Use</a></p>
+                            <p><a href="#">Security</a></p>
+                            <p><a href="#">Privacy</a></p>
+                            <p><a href="#">Sitemap</a></p>
+                            <p><a href="#">Grievance Redressal</a></p>
+                            <p><a href="#">EPR Compliance</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6>Mail Us:</h6>
+                        <div style="font-size: 15px;">
+
+                            <p>
+                                Flipkart Internet Private Limited,<br>
+                                Buildings Alyssa, Begonia & Clove Embassy Tech Village,<br>
+                                Outer Ring Road, Devarabeesanahalli Village,<br>
+                                Bengaluru, 560103,<br>
+                                Karnataka, India
+                            </p>
+                        </div>
+                        <h6>Social:</h6>
+                        <div style="font-size: 15px;">
+
+                            <p>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-twitter"></i>
+                                <i class="bi bi-youtube"></i>
+                                <i class="bi bi-instagram"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6>Registered Office Address:</h6>
+                        <div style="font-size: 15px;">
+
+                            <p>
+                                Flipkart Internet Private Limited,<br>
+                                Buildings Alyssa, Begonia & Clove Embassy Tech Village,<br>
+                                Outer Ring Road, Devarabeesanahalli Village,<br>
+                                Bengaluru, 560103,<br>
+                                Karnataka, India<br>
+                                CIN: U51109KA2012PTC066107<br>
+                                Telephone: <a href="#">044-45614700 / 044-67415800</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center footer-bottom mt-4">
+                    <div class="col-md-2 icon-text">
+                        <i class="bi bi-box-seam"></i> Become a Seller
+                    </div>
+                    <div class="col-md-2 icon-text">
+                        <i class="bi bi-bullseye"></i> Advertise
+                    </div>
+                    <div class="col-md-2 icon-text">
+                        <i class="bi bi-gift"></i> Gift Cards
+                    </div>
+                    <div class="col-md-2 icon-text">
+                        <i class="bi bi-question-circle"></i> Help Center
+                    </div>
+                    <div class="col-md-4 text-end">
+                        © 2007-2025 Flipkart.com<br />
+                        <img src="https://img.icons8.com/color/32/visa.png" />
+                        <img src="https://img.icons8.com/color/32/mastercard-logo.png" />
+                        <img src="https://img.icons8.com/color/32/discover.png" />
+                        <img src="https://img.icons8.com/color/32/rupay.png" />
+                        <!-- Add more payment icons as needed -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- footer end -->
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/splide.min.js"></script>
+</body>
+
+</html>
